@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:inputText>
+                <f:ajax event="click" listener="#{ajax_event.ajaxClick()}"/>
+                <f:ajax event="change" listener="#{ajax_event.ajaxChange()}"/>
+                <f:ajax event="blur" listener="#{ajax_event.ajaxBlur()}"/>
+                <f:ajax event="focus" listener="#{ajax_event.ajaxFocus()}"/>
+                <f:ajax event="keydown" listener="#{ajax_event.ajaxKeydown()}"/>
+                <f:ajax event="keypress" listener="#{ajax_event.ajaxKeypress()}"/>
+                <f:ajax event="keyup" listener="#{ajax_event.ajaxKeyup()}"/>
+                <f:ajax event="mousedown" listener="#{ajax_event.ajaxMousedown()}"/>
+                <f:ajax event="mouseup" listener="#{ajax_event.ajaxMouseup()}"/>
+                
+                
+            </h:inputText>
+        </h:form>
+    </h:body>
+</html>
+
